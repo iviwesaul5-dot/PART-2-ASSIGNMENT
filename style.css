@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fff5f8;
+  color: #333;
+}
+
+h1 {
+  color: #d63384;
+  text-align: center;
+  padding: 20px;
+  font-size: 36px;
+}
+
+h2 {
+  color: #d63384;
+  text-align: center;
+  padding: 15px;
+}
+
+p {
+  text-align: center;
+  font-size: 16px;
+  padding: 10px;
+}
+
+.gallery-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  padding: 20px;
+}
+
+.gallery-item img {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border: 3px solid #d63384;
+  border-radius: 10px;
+}
